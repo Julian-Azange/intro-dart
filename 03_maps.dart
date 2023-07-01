@@ -1,3 +1,5 @@
+// Objective: Show how to use maps in dart
+
 void main() {
   final Map<String, dynamic> pokemon = {
     // Mapa de tipo string y dynamic, todas las llaves seran de tipo string

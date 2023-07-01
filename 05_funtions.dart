@@ -1,6 +1,8 @@
+// Objective: Learn about functions in Dart
+
 void main() {
   
-  print(greetEveryone());
+  print('INFO: '+greetEveryone());
   print('Suma: ${addTwoNumbers(1, 2)}');
   print('Suma: ${addTwoNumbersOptional(1)}');
   print(greetPerson(name: 'Julian', message: 'Hi'));

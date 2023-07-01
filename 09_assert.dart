@@ -1,3 +1,5 @@
+// Objetive: Show how to use assert
+
 void main() {
 
   final mySqueare = Square(side: -10);
@@ -17,7 +19,7 @@ class Square {
   }
 
   set side(double value) {
-    print('Setting new value: $value');
+    print('INFO: Setting new value: $value');
     if (value < 0) throw ('Value must be greater than 0');
 
     _side = value;

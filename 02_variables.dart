@@ -1,3 +1,5 @@
+// Objective: Variables in Dart
+
 void main() {
   final String pokemon = 'Pikachu';
   final int hp = 100;
@@ -18,7 +20,7 @@ void main() {
   errorMessage = () => true;
   errorMessage = null;
 
-  print("""
+  print(""" INFO:
   $pokemon
   $hp
   $isAlive

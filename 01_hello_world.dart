@@ -1,3 +1,5 @@
+// Hola mundo en Dart
+
 void main() {
 // var myName = 'Julian';
 // final myName = 'Julian'; // una vez se establece no se puede cambiar
@@ -5,8 +7,8 @@ void main() {
 // String myName = 'Julian'; // tipo de dato explicito
   const myName = 'Julian'; // constante: jamas va cambiar de valor
 
-  print('Hola $myName');
+  print('INFO: Hola $myName');
   // interpolacion de variables siempre dentro de llaves {}
-  print('Hola ${myName.toUpperCase()}'); // interpolacion de metodos
-  print('Hola ${ 1 + 1 }'); // interpolacion de expresiones
+  print('INFO: Hola ${myName.toUpperCase()}'); // interpolacion de metodos
+  print('INFO: Hola ${ 1 + 1 }'); // interpolacion de expresiones
 }

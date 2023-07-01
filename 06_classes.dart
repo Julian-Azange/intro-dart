@@ -1,3 +1,5 @@
+// Objective: Classes in Dart
+
 void main(){
 
   final wolverine = new Hero('Logan', 'Regeneracion');

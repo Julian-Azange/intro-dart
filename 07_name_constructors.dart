@@ -1,3 +1,5 @@
+// Objective: Show how to use named constructors
+
 void main() {
 
   // final iroman = new Hero('Tony Stark', 'Inteligencia', false);
